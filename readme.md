@@ -1,0 +1,1 @@
+This repository contains my work for the Regression module, completed as part of the Codeup Data Science Program.
