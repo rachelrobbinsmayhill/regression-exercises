@@ -82,8 +82,6 @@ def wrangle_zillow(df):
     return df
 
 
-
-
 def get_telco_data(use_cache=True):
     filename = 'telco_churn.csv'
     
@@ -106,10 +104,6 @@ def get_telco_data(use_cache=True):
     return df
 
 
-
-
-
-
 def wrangle_telco():
     # get dataframe using get_telco_data function
     df = get_telco_data()
@@ -118,11 +112,6 @@ def wrangle_telco():
     df = df.rename(columns={'tenure': 'monthly_tenure'})
     
     return df
-
-
-
-
-
 
 
 def data_split(df, target):
